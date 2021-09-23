@@ -7,17 +7,289 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vazhalikkavu Bhagavathi Temple</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 bg-danger">
-                Shajus
+            <div class="col-md-12 col-sm-12 col-12 p-0 bg-light overflow-hidden">
+
+                <div class="header p-2">
+
+                    <div class="large-header-menu w-100 p-2" id="header">
+                        <span class="me-3" style="font-size:small;"> (Logo)</span>
+                        <div>
+                            <span class="active-header-menu">Home</span>
+                            <span class="inactive-header-menu">About</span>
+                            <span class="inactive-header-menu">Photo Gallery</span>
+                            <span class="inactive-header-menu">History</span>
+                            <span class="inactive-header-menu">Offering</span>
+                            <span class="inactive-header-menu">Pooja Times</span>
+                            <span class="inactive-header-menu">Contact Us</span>
+                            
+
+
+                        </div>
+                    </div>
+
+                    <div class="small-header-menu w-100 p-2">
+                        <span class="" style="font-size:x-small;"> (Logo)</span>
+                        <div>
+
+                            <svg onclick="OPEN_NAV_DRAWER()" width="20" height="20" viewBox="0 0 47 47" fill="none"
+                                style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.6" y="0.6" width="45.8" height="45.8" rx="9.4" stroke="black"
+                                    stroke-width="1.2" />
+                                <path
+                                    d="M13.3438 13C12.8802 13 12.4271 13.1353 12.0416 13.3889C11.6562 13.6425 11.3558 14.0029 11.1784 14.4246C11.001 14.8463 10.9546 15.3103 11.045 15.7579C11.1355 16.2055 11.3587 16.6167 11.6865 16.9395C12.0142 17.2622 12.4319 17.482 12.8865 17.571C13.3412 17.6601 13.8124 17.6144 14.2407 17.4397C14.6689 17.2651 15.035 16.9693 15.2925 16.5898C15.55 16.2103 15.6875 15.7641 15.6875 15.3077C15.6875 14.6957 15.4406 14.1087 15.001 13.6759C14.5615 13.2431 13.9654 13 13.3438 13ZM13.3438 20.6923C12.8802 20.6923 12.4271 20.8277 12.0416 21.0812C11.6562 21.3348 11.3558 21.6952 11.1784 22.1169C11.001 22.5386 10.9546 23.0026 11.045 23.4502C11.1355 23.8979 11.3587 24.309 11.6865 24.6318C12.0142 24.9545 12.4319 25.1743 12.8865 25.2634C13.3412 25.3524 13.8124 25.3067 14.2407 25.132C14.6689 24.9574 15.035 24.6616 15.2925 24.2821C15.55 23.9026 15.6875 23.4564 15.6875 23C15.6875 22.388 15.4406 21.801 15.001 21.3682C14.5615 20.9354 13.9654 20.6923 13.3438 20.6923ZM13.3438 28.3846C12.8802 28.3846 12.4271 28.52 12.0416 28.7735C11.6562 29.0271 11.3558 29.3875 11.1784 29.8092C11.001 30.2309 10.9546 30.6949 11.045 31.1425C11.1355 31.5902 11.3587 32.0014 11.6865 32.3241C12.0142 32.6468 12.4319 32.8666 12.8865 32.9557C13.3412 33.0447 13.8124 32.999 14.2407 32.8243C14.6689 32.6497 15.035 32.3539 15.2925 31.9744C15.55 31.5949 15.6875 31.1487 15.6875 30.6923C15.6875 30.0803 15.4406 29.4933 15.001 29.0605C14.5615 28.6277 13.9654 28.3846 13.3438 28.3846ZM35.2188 29.1538H19.5938C19.3866 29.1538 19.1878 29.2349 19.0413 29.3791C18.8948 29.5234 18.8125 29.7191 18.8125 29.9231V31.4615C18.8125 31.6656 18.8948 31.8612 19.0413 32.0055C19.1878 32.1497 19.3866 32.2308 19.5938 32.2308H35.2188C35.426 32.2308 35.6247 32.1497 35.7712 32.0055C35.9177 31.8612 36 31.6656 36 31.4615V29.9231C36 29.7191 35.9177 29.5234 35.7712 29.3791C35.6247 29.2349 35.426 29.1538 35.2188 29.1538ZM35.2188 13.7692H19.5938C19.3866 13.7692 19.1878 13.8503 19.0413 13.9945C18.8948 14.1388 18.8125 14.3344 18.8125 14.5385V16.0769C18.8125 16.2809 18.8948 16.4766 19.0413 16.6209C19.1878 16.7651 19.3866 16.8462 19.5938 16.8462H35.2188C35.426 16.8462 35.6247 16.7651 35.7712 16.6209C35.9177 16.4766 36 16.2809 36 16.0769V14.5385C36 14.3344 35.9177 14.1388 35.7712 13.9945C35.6247 13.8503 35.426 13.7692 35.2188 13.7692V13.7692ZM35.2188 21.4615H19.5938C19.3866 21.4615 19.1878 21.5426 19.0413 21.6868C18.8948 21.8311 18.8125 22.0268 18.8125 22.2308V23.7692C18.8125 23.9732 18.8948 24.1689 19.0413 24.3132C19.1878 24.4574 19.3866 24.5385 19.5938 24.5385H35.2188C35.426 24.5385 35.6247 24.4574 35.7712 24.3132C35.9177 24.1689 36 23.9732 36 23.7692V22.2308C36 22.0268 35.9177 21.8311 35.7712 21.6868C35.6247 21.5426 35.426 21.4615 35.2188 21.4615Z"
+                                    fill="black" />
+                            </svg>
+
+
+                        </div>
+
+                        <div class="nav-drawer-hidden" id="navDrawer">
+
+                            <div class="d-flex flex-row justify-content-end mt-1 me-1">
+                                <svg onclick="CLOSE_NAV_DRAWER()" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.5849 12L22.4682 4.13499C22.8134 3.78977 23.0074 3.32155 23.0074 2.83333C23.0074 2.34511 22.8134 1.87688 22.4682 1.53166C22.123 1.18644 21.6548 0.992493 21.1666 0.992493C20.6783 0.992493 20.2101 1.18644 19.8649 1.53166L11.9999 9.41499L4.13489 1.53166C3.78966 1.18644 3.32144 0.992493 2.83322 0.992493C2.345 0.992493 1.87678 1.18644 1.53155 1.53166C1.18633 1.87688 0.992387 2.34511 0.992387 2.83333C0.992387 3.32155 1.18633 3.78977 1.53155 4.13499L9.41489 12L1.53155 19.865C1.35972 20.0354 1.22333 20.2382 1.13025 20.4616C1.03718 20.685 0.989258 20.9246 0.989258 21.1667C0.989258 21.4087 1.03718 21.6483 1.13025 21.8717C1.22333 22.0951 1.35972 22.2979 1.53155 22.4683C1.70199 22.6402 1.90476 22.7766 2.12816 22.8696C2.35157 22.9627 2.5912 23.0106 2.83322 23.0106C3.07524 23.0106 3.31487 22.9627 3.53828 22.8696C3.76169 22.7766 3.96446 22.6402 4.13489 22.4683L11.9999 14.585L19.8649 22.4683C20.0353 22.6402 20.2381 22.7766 20.4615 22.8696C20.6849 22.9627 20.9245 23.0106 21.1666 23.0106C21.4086 23.0106 21.6482 22.9627 21.8716 22.8696C22.095 22.7766 22.2978 22.6402 22.4682 22.4683C22.6401 22.2979 22.7764 22.0951 22.8695 21.8717C22.9626 21.6483 23.0105 21.4087 23.0105 21.1667C23.0105 20.9246 22.9626 20.685 22.8695 20.4616C22.7764 20.2382 22.6401 20.0354 22.4682 19.865L14.5849 12Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+
+
+                            <div class="d-flex flex-row justify-content-center p-4 mt-4 bg-light w-100">
+                                (LOGO)
+                            </div>
+
+                            <div class="mt-2">
+                                <ul class="nav-ul">
+                                    <li class="active-nav-text">Home</li>
+                                    <li>About</li>
+                                    <li>Photo Gallery</li>
+                                    <li>History</li>
+                                    <li>Offering</li>
+                                    <li>Pooja Times</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="image-slider">
+
+                    <div class="slide-images d-flex flex-row" id="slderImages">
+                        <img class="slide-image" src="./Assets/Images/1.jpg" alt="">
+                        <img class="slide-image-hide" src="./Assets/Images/2.jpg" alt="">
+                        <img class="slide-image-hide" src="./Assets/Images/3.jpg" alt="">
+                    </div>
+
+                    <div class="black-shade">
+
+                    </div>
+
+                    <div class="image-slider-text-conntainer">
+                        <span class="tittle-name">Sree Vazhalikkavu Bhagavathi Temple</span>
+                        <div class="know-more-btn">
+                            Know more...
+                        </div>
+                    </div>
+
+                    <div class="address-marquee-container">
+
+                        <marquee scrollamount="4" behavior="" direction="left">
+                            <span class="">Address: Vazhalikkavu Bhagavathy Temple, Vazhalippadam,
+                                Painkulam , Thrissur District. Kerala ( PIN : 679531 )...................
+                                (Marquee)*</span>
+                        </marquee>
+
+                    </div>
+
+                </div>
+
+                <div class="menu-strip">
+                    <ul class="menu-strap-ul">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Photo Gallery</li>
+                        <li>History</li>
+                        <li>Offering</li>
+                        <li>Pooja Times</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="m-0 pt-1 d-flex flex-column align-items-center">
+
+                    <span class="session-header">TEMPLE CARETAKERS</span>
+
+
+
+                    <div class="peopes-row container-fluid mt-4 p-0 overflow-hidden">
+
+                        <div class="row p-2"
+                            style="background-color: #ffe7bf; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+
+                            <span style="cursor: pointer;" class="w-100 text-end pe-4">See all >></span>
+                            <div class="col-md-3 col-sm-3 col-3 d-flex justify-content-center">
+                                <div class="people-card">
+                                    <img src="./Assets/Images/avatar.jpg" alt="" class="person-avatar" />
+                                    <span class="people-card-name">Name of the person</span>
+                                    <span class="people-card-desi">Designation</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-3 d-flex justify-content-center">
+                                <div class="people-card">
+                                    <img src="./Assets/Images/avatar.jpg" alt="" class="person-avatar" />
+                                    <span class="people-card-name">Name of the person</span>
+                                    <span class="people-card-desi">Designation</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-3 d-flex justify-content-center">
+                                <div class="people-card">
+                                    <img src="./Assets/Images/avatar.jpg" alt="" class="person-avatar" />
+                                    <span class="people-card-name">Name of the person</span>
+                                    <span class="people-card-desi">Designation</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-3 d-flex justify-content-center">
+                                <div class="people-card">
+                                    <img src="./Assets/Images/avatar.jpg" alt="" class="person-avatar" />
+                                    <span class="people-card-name">Name of the person</span>
+                                    <span class="people-card-desi">Designation</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="m-0 mt-5 pt-1 d-flex flex-column align-items-center">
+
+                    <span class="session-header ms-4" style="width: fit-content;">TEMPLE PROGRAMS</span>
+
+                    <div class="container-fluid mt-2 p-0">
+
+
+                        <div class="row program-row">
+
+                            <div class="col-md-3 col-sm-12 col-12 d-flex justify-content-center p-4">
+                                <div class="program-card">
+                                    <div class="program-card-image p-2"
+                                        style="background-image: url('./Assets/Images/3.jpg');"></div>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <span class="program-card-header ">Vazhalikkavu Vela 2021</span>
+                                    </div>
+
+                                    <p class="program-card-description mt-2">The vazhalikkavu devaswam has desided to
+                                        conduct the vela in 12 April 2021 Monday. Everything will be under Covid
+                                        Protocol implemented by the govt.</p>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <button class="program-card-btn">Read More...</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-12 col-12 d-flex justify-content-center p-4">
+                                <div class="program-card">
+                                    <div class="program-card-image p-2"
+                                        style="background-image: url('./Assets/Images/3.jpg');"></div>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <span class="program-card-header ">Vazhalikkavu Vela 2021</span>
+                                    </div>
+
+                                    <p class="program-card-description mt-2">The vazhalikkavu devaswam has desided to
+                                        conduct the vela in 12 April 2021 Monday. Everything will be under Covid
+                                        Protocol implemented by the govt.</p>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <button class="program-card-btn">Read More...</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-12 col-12 d-flex justify-content-center p-4">
+                                <div class="program-card">
+                                    <div class="program-card-image p-2"
+                                        style="background-image: url('./Assets/Images/3.jpg');"></div>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <span class="program-card-header ">Vazhalikkavu Vela 2021</span>
+                                    </div>
+
+                                    <p class="program-card-description mt-2">The vazhalikkavu devaswam has desided to
+                                        conduct the vela in 12 April 2021 Monday. Everything will be under Covid
+                                        Protocol implemented by the govt.</p>
+
+                                    <div class="w-100 d-flex justify-content-center mt-2">
+                                        <button class="program-card-btn">Read More...</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-12 col-12 d-flex justify-content-center p-4">
+                                <div class="program-card d-flex flex-column justify-content-center align-items-center">
+                                    
+                                    <button class="program-card-more-btn">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </button>
+
+                                    <span class="mt-2">See more programs...</span>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div style="height: 200px;">
+                    <span>&nbsp;</span>
+                </div>
+
             </div>
         </div>
     </div>
@@ -30,6 +302,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src="./Js/index.js"></script>
 </body>
 
 </html>
