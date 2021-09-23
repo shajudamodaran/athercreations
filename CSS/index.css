@@ -298,6 +298,9 @@ letter-spacing: 3px;
     flex-direction: column;
     align-items: center;
 }
+
+
+
 .person-avatar{
 
     height: 170px;
@@ -331,6 +334,17 @@ letter-spacing: 3px;
   overflow-x: hidden;
   width: 90%;
  
+}
+
+.program-card-hide-in-small{
+    flex:1;
+    background-color: white;
+    max-height: 500px;
+    min-height: 500px;
+    border-radius: 10px;
+    border:1px solid rgb(179, 179, 179);
+    overflow-x: hidden;
+    width: 90%;
 }
 
 .program-card:hover{
@@ -453,6 +467,11 @@ letter-spacing: 3px;
 
 
 @media only screen and (max-width: 700px) {
+
+    .program-card-hide-in-small{
+      height: 0;
+      overflow: hidden;
+    }
     .header {
         min-height: 20px;
         max-height: 40px;
@@ -474,21 +493,20 @@ letter-spacing: 3px;
     }
 
     .image-slider{
-        max-height: 40vh;
-        min-height: 40vh;
+        max-height: 32vh;
+        min-height: 32vh;
         overflow: hidden;
-        background-color: aquamarine;
+        background-color: rgb(255, 255, 255);
        
     }
 
     .slide-images{
 
         width: 100vw;
-        height: auto;
+        height: 100%;
         min-height: 100%;
         overflow: hidden;
         object-fit: cover;
-        max-height: 100vh;
     }
     
     .slide-image{
@@ -561,5 +579,48 @@ letter-spacing: 3px;
     .menu-strap-ul{
         display: none;
     }
+
+
+    .session-header{
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: 3px solid #FFAB27;
+    }
+
+    .people-card{
+
+   
+        width: 100%;
+        border-radius: 5px;
+        padding: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .person-avatar{
+    
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+    }
+    
+    .people-card-name{
+    
+        font-size: 10px;
+        font-family: roboto;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .people-card-desi{
+    
+        font-size:11px;
+        font-family: default;
+        font-weight: 300;
+    }
+    
     
   }
