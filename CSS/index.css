@@ -37,7 +37,7 @@
     position: fixed;
     top:0; left:0;
     width: 100%;
-    background-color: #FFFCF8;
+    background-color: #ffedd0;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     min-height: 78px;
     display: flex;
@@ -56,10 +56,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .active-header-menu{
-    font-size: 15px;
+    font-size: 16px;
     font-family: roboto;
     font-weight: bold;
     margin-right: 20px;
@@ -197,7 +200,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 180px;
 }
 
 .tittle-name{
@@ -373,7 +376,7 @@ margin-top: 20px;
     display: flex;
     flex-direction: row;
     overflow-y:visible;
-    padding-bottom: 20px;
+   padding: 20px;
   
 }
 
@@ -750,6 +753,7 @@ margin-left: 15px;
         overflow: scroll;
         align-items: center;
         justify-content: center;
+        padding: 10px;
     }
 
     .program-card{
@@ -764,6 +768,8 @@ margin-left: 15px;
         min-width: 330px;
         margin: 0;
         margin-top: 20px;
+        overflow: hidden;
+        
        
        
       }
