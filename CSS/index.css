@@ -669,6 +669,32 @@ margin-top: 20px;
         font-family: default;
         font-weight: 300;
     }
+
+    .footer-copyright{
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 29px;
+        margin-top: 10px;
+    }
+    .footer-address{
+    
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 29px;
+        text-align: right;
+        margin-top: 10px;
+    
+    }
+
+    .footer-connect{
+    
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 29px;
+        text-align: right;
+        margin-top: 10px;
+    
+    }
     
     
   }
