@@ -297,7 +297,17 @@ letter-spacing: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
+    /* Rectangle */
+
+background: rgba(69, 183, 207, 0.15);
+border: 2px solid rgba(69, 183, 207, 0.5);
+border-radius: 10px;
+margin-top: 20px;
 }
+
+
 
 
 
@@ -357,7 +367,7 @@ letter-spacing: 3px;
 .program-card-image{
    max-width: 100%;
    min-height: 50%;
-   max-height: 50%;
+   max-height: 050%;
    background-size: cover;
  
 }
@@ -397,7 +407,7 @@ letter-spacing: 3px;
     
 }
 
-.program-card-btn:hover{
+.program-card-b0tn:hover{
     background-color: #ffffff;
     outline: 0;
     border:1px solid black;
@@ -443,6 +453,44 @@ letter-spacing: 3px;
     border-radius: 100px;
     transition-duration: .5s;
 }
+
+.footer-main{
+    background-color: #242424;
+    padding: 30px 15px
+}
+
+.footer-copyright{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 29px;
+}
+.footer-address{
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: right;
+
+}
+
+.rituals-table{
+
+    width: 100%;
+}
+
+.rituals-table td{
+
+    padding: 15px;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+}
+
+
+
+
+.rituals-table tr:nth-child(odd) {background-color: white;}
+
+.rituals-table td:nth-child(odd) { width: 30%;}
 
 
 
