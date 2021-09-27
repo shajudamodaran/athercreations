@@ -1,3 +1,37 @@
+
+.no-scrollbar::-webkit-scrollbar {
+    /*display: none;*/
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFAB27; 
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d68400; 
+  }
+
+
 .header{
 
     position: fixed;
@@ -293,7 +327,6 @@ letter-spacing: 3px;
     width: 100%;
     border-radius: 5px;
     padding: 15px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,6 +338,7 @@ background: rgba(69, 183, 207, 0.15);
 border: 2px solid rgba(69, 183, 207, 0.5);
 border-radius: 10px;
 margin-top: 20px;
+
 }
 
 
@@ -334,6 +368,15 @@ margin-top: 20px;
     font-weight: 300;
 }
 
+.programs-row{
+
+    display: flex;
+    flex-direction: row;
+    overflow-y:visible;
+    padding-bottom: 20px;
+  
+}
+
 .program-card{
   flex:1;
   background-color: white;
@@ -343,6 +386,8 @@ margin-top: 20px;
   border:1px solid rgb(179, 179, 179);
   overflow-x: hidden;
   width: 90%;
+  min-width: 320px;
+margin-left: 15px;
  
 }
 
@@ -355,6 +400,8 @@ margin-top: 20px;
     border:1px solid rgb(179, 179, 179);
     overflow-x: hidden;
     width: 90%;
+    min-width: 320px;
+    margin-left: 15px;
 }
 
 .program-card:hover{
@@ -366,7 +413,7 @@ margin-top: 20px;
 
 .program-card-image{
    max-width: 100%;
-   min-height: 50%;
+   min-height: 230px;
    max-height: 050%;
    background-size: cover;
  
@@ -695,6 +742,39 @@ margin-top: 20px;
         margin-top: 10px;
     
     }
+
+    .programs-row{
+    
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .program-card{
+       width: 100%;
+        background-color: white;
+        max-height: 500px;
+        min-height: 500px;
+        border-radius: 10px;
+        border:1px solid rgb(179, 179, 179);
+        overflow-x:visible;
+        width: 90%;
+        min-width: 330px;
+        margin: 0;
+        margin-top: 20px;
+       
+       
+      }
+    
     
     
   }
+
+
+
+
+
+
+ 
