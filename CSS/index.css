@@ -1,6 +1,6 @@
 
 .no-scrollbar::-webkit-scrollbar {
-    /*display: none;*/
+    display: none;
   }
   
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -10,26 +10,52 @@
   }
 
   /* width */
-::-webkit-scrollbar {
+.program-row::-webkit-scrollbar {
     width: 6px;
   }
   
   /* Track */
-  ::-webkit-scrollbar-track {
+  .program-row::-webkit-scrollbar-track {
     background: #f1f1f1; 
     border-radius: 100px;
   }
    
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  .program-row::-webkit-scrollbar-thumb {
     background: #FFAB27; 
     border-radius: 100px;
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  .program-row::-webkit-scrollbar-thumb:hover {
     background: #d68400; 
   }
+
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8f8f8f; 
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888888; 
+  }
+
 
 
 .header{
@@ -37,17 +63,22 @@
     position: fixed;
     top:0; left:0;
     width: 100%;
-    background-color: #ffedd0;
+    background-color: #000000a2;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    backdrop-filter: blur(4px);
     min-height: 78px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    z-index: 100;
-    transition-duration: 1s;
+    z-index: 200;
+    transition-duration: .5s;
+   
 }
+
+
+
 
 .large-header-menu{
 
@@ -56,7 +87,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
     font-weight: 400;
     font-size: 16px;
 }
@@ -66,7 +97,7 @@
     font-family: roboto;
     font-weight: bold;
     margin-right: 20px;
-    color: #FFAB27;
+    color: white;
     cursor: pointer;
 }
 
@@ -100,12 +131,14 @@
 
     /* background-color: rgb(161, 161, 161); */
     display: none;
+    z-index: 150;
+    color: white;
    
 }
 
 .nav-drawer {
 
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     height: 100vh;
@@ -114,7 +147,7 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     padding: 10px;
     transition-duration: .4s;
-    z-index: 100;
+    z-index:99;
 
 }
 
@@ -288,9 +321,9 @@ letter-spacing: 3px;
    
     font-family: roboto;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #000000;
     padding: 15px 15px;
-   background-color: #000000;
+   background-color: #ffedd0;
    flex:1;
    display: flex;
    flex-direction: row;
@@ -309,7 +342,7 @@ letter-spacing: 3px;
     font-size: 15px;
     color: #000000;
     padding: 15px 15px;
-   background-color: #FFAB27;
+   background-color: #ffd899;
    flex:1;
    display: flex;
    flex-direction: row;
@@ -505,7 +538,7 @@ margin-left: 15px;
 }
 
 .footer-main{
-    background-color: #242424;
+    background-color: #1A5667;
     padding: 30px 15px
 }
 
@@ -574,6 +607,8 @@ margin-left: 15px;
         min-height: 20px;
         max-height: 40px;
         position: relative;
+        background-color:#2985A2;
+      
       
     }
 
@@ -588,6 +623,7 @@ margin-left: 15px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        color: black;
     }
 
     .image-slider{
