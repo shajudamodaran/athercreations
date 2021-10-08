@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/vazalikkavu/static/css/main.14fceda4.chunk.css",
+    "main.js": "/vazalikkavu/static/js/main.252d0dd1.chunk.js",
+    "main.js.map": "/vazalikkavu/static/js/main.252d0dd1.chunk.js.map",
+    "runtime-main.js": "/vazalikkavu/static/js/runtime-main.c8d0c9cf.js",
+    "runtime-main.js.map": "/vazalikkavu/static/js/runtime-main.c8d0c9cf.js.map",
+    "static/js/2.b0a78c3b.chunk.js": "/vazalikkavu/static/js/2.b0a78c3b.chunk.js",
+    "static/js/2.b0a78c3b.chunk.js.map": "/vazalikkavu/static/js/2.b0a78c3b.chunk.js.map",
+    "static/js/3.92b7e9ee.chunk.js": "/vazalikkavu/static/js/3.92b7e9ee.chunk.js",
+    "static/js/3.92b7e9ee.chunk.js.map": "/vazalikkavu/static/js/3.92b7e9ee.chunk.js.map",
+    "index.html": "/vazalikkavu/index.html",
+    "static/css/main.14fceda4.chunk.css.map": "/vazalikkavu/static/css/main.14fceda4.chunk.css.map",
+    "static/js/2.b0a78c3b.chunk.js.LICENSE.txt": "/vazalikkavu/static/js/2.b0a78c3b.chunk.js.LICENSE.txt",
+    "static/media/1.a256993f.jpg": "/vazalikkavu/static/media/1.a256993f.jpg",
+    "static/media/2.2e03c1c6.jpg": "/vazalikkavu/static/media/2.2e03c1c6.jpg",
+    "static/media/3.de917e33.jpg": "/vazalikkavu/static/media/3.de917e33.jpg",
+    "static/media/globalstyle.css": "/vazalikkavu/static/media/Gayathri-Thin.2d8fc7eb.ttf",
+    "static/media/avatar.9114e4e4.jpg": "/vazalikkavu/static/media/avatar.9114e4e4.jpg",
+    "static/media/history.1a06be8a.jpg": "/vazalikkavu/static/media/history.1a06be8a.jpg",
+    "static/media/logo.6ce24c58.svg": "/vazalikkavu/static/media/logo.6ce24c58.svg",
+    "static/media/logo.b901df62.png": "/vazalikkavu/static/media/logo.b901df62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8d0c9cf.js",
+    "static/js/2.b0a78c3b.chunk.js",
+    "static/css/main.14fceda4.chunk.css",
+    "static/js/main.252d0dd1.chunk.js"
+  ]
+}
