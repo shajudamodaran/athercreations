@@ -1,0 +1,86 @@
+.year-badge{
+    background-color: rgb(240, 240, 240);
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 13.5px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1.2px solid #00AC6B;
+    cursor: pointer;
+    margin-right: 10px;
+    transition-duration: .2s;
+    
+}
+
+.year-badge-active{
+
+
+    background-color: #00AC6B;
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 13.5px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1.2px solid #4effbb;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #ffffff;
+
+
+}
+
+
+@media only screen and (max-width: 990px) {
+
+    
+    .year-badge{
+        background-color: rgb(240, 240, 240);
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 10px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1.2px solid #00AC6B;
+        cursor: pointer;
+        margin-right: 10px;
+        transition-duration: .2s;
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .year-badge-active{
+
+
+        background-color: #00AC6B;
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 10px;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1.2px solid #4effbb;
+        cursor: pointer;
+        margin-right: 10px;
+        color: #ffffff;
+        margin-bottom: 10px;
+    
+    
+    }
+    
+
+    
+
+
+}

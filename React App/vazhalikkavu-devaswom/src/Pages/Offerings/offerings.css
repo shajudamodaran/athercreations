@@ -1,0 +1,161 @@
+.main-container{
+
+    margin-top:110px;
+
+}
+
+.offer-table{
+
+    width: 100%;
+  
+}
+
+
+.offer-table th{
+    padding: 10px 20px;
+    background-color: #232323;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    border-right: .5px solid rgba(119, 119, 119, 0.733);
+}
+
+.offer-table thead{
+  border-bottom: .5px solid rgb(206, 206, 206);
+}
+
+
+
+.offer-table th:first-child {
+
+    border-top-left-radius: 5px;
+}
+
+.offer-table th:last-child {
+    border-top-right-radius: 5px;
+    border: 0;
+}
+
+
+
+.offer-table td:first-child {
+     border-left: .2px solid rgb(226, 226, 226);
+}
+
+.offer-table td:last-child {
+    border-right: .2px solid rgb(226, 226, 226);
+}
+
+
+
+
+.offer-table td{
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: .2px solid rgb(226, 226, 226);
+}
+
+.offer-table tr:nth-child(odd)
+{
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+.online-booking-container{
+    padding: 15px 20px;
+    background-color: blanchedalmond;
+    border: 1px solid #FFD6A1;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.online-booking-container button{
+    border: 1px solid #FFD6A1;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #ff9100;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: "roboto condensed";
+    transition-duration: .5s;
+
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.online-booking-container button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.online-booking-container span{
+   
+    font-family: "roboto";
+    font-size: 14px;
+    color: #3a3a3a;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    .main-container{
+
+        margin-top: 40px;
+
+    }
+
+    .online-booking-container{
+
+        padding: 10px 10px;
+  
+    }
+
+    .online-booking-container button{
+        border: 1px solid #FFD6A1;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+
+    .online-booking-container span{
+   
+        font-family: "roboto";
+        font-size: 12px;
+        color: #3a3a3a;
+    
+    
+    }
+    
+    
+
+
+    
+
+
+}

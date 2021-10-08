@@ -1,0 +1,230 @@
+.programs-row::-webkit-scrollbar {
+    width: 6px;
+    height: 7px;
+  }
+  
+  /* Track */
+  .programs-row::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+  .programs-row::-webkit-scrollbar-thumb {
+    background: #FFAB27; 
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  .programs-row::-webkit-scrollbar-thumb:hover {
+    background: #d68400; 
+  }
+
+
+
+
+.programs-row{
+
+    display: flex;
+    flex-direction: row;
+    overflow-y:visible;
+   padding: 20px;
+  
+}
+
+.program-card{
+  flex:1;
+  background-color: white;
+  max-height: 500px;
+  min-height: 500px;
+  border-radius: 10px;
+  border:1px solid rgb(179, 179, 179);
+  overflow-x: hidden;
+  width: 90%;
+  min-width: 320px;
+margin-left: 15px;
+ 
+}
+
+.program-card-hide-in-small{
+    flex:1;
+    background-color: white;
+    max-height: 500px;
+    min-height: 500px;
+    border-radius: 10px;
+    border:1px solid rgb(179, 179, 179);
+    overflow-x: hidden;
+    width: 90%;
+    min-width: 320px;
+    margin-left: 15px;
+}
+
+.program-card:hover{
+
+    transform: scale(1.02);
+    transition-duration: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.program-card-image{
+   max-width: 100%;
+   min-height: 230px;
+   max-height: 050%;
+   background-size: cover;
+ 
+}
+
+.program-card-header{
+    font-family: "roboto condensed";
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-bottom: 2.5px solid #E68E98;
+  
+}
+
+
+.program-card-description{
+
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    letter-spacing: .8px;
+}
+
+.program-card-btn{
+    background-color: #000000;
+    outline: 0;
+    border:1px solid black;
+    color:white;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+}
+
+.program-card-b0tn:hover{
+    background-color: #ffffff;
+    outline: 0;
+    border:1px solid black;
+    color:rgb(0, 0, 0);
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+
+.program-card-more-btn{
+
+    height: 55px;
+    width: 55px;
+    background-color: #ffffff;
+    outline: 0;
+    border:1px solid black;
+    color:rgb(0, 0, 0);
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    transition-duration: .5s;
+}
+
+.program-card-more-btn:hover{
+
+    height: 55px;
+    width: 55px;
+
+    background-color: #000000;
+    outline: 0;
+    border:1px solid black;
+    color:rgb(255, 255, 255);
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 100px;
+    transition-duration: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .program-card-hide-in-small{
+      height: 0;
+      overflow: hidden;
+    }
+   
+    .session-header{
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: 3px solid #FFAB27;
+    }
+
+ 
+    .programs-row{
+    
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .program-card{
+       width: 100%;
+        background-color: white;
+        max-height: 500px;
+        min-height: 500px;
+        border-radius: 10px;
+        border:1px solid rgb(179, 179, 179);
+        overflow-x:visible;
+        width: 90%;
+        min-width: 330px;
+        margin: 0;
+        margin-top: 20px;
+        overflow: hidden;
+        
+       
+       
+      }
+    
+    
+    
+  }
+
+
+
+
+
+
+ 

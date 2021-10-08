@@ -1,0 +1,257 @@
+@import url('../../CSS/globalstyle.css');
+
+.slide-images{
+
+    width: 100vw;
+    height: auto;
+    min-height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slide-image{
+
+    width: 100vw;
+    min-width: 100vw;
+    height: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    background-size: contain;
+    min-height: 100%;
+    animation-name: zoomin;
+  animation-duration: 40s;
+}
+
+.slide-image-hide{
+
+    transition-duration: .1s;
+   width: 0;
+   overflow: hidden;
+}
+
+.image-slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.black-shade{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* Rectangle 5 */
+    background: linear-gradient(180deg, #030303 0%, rgba(3, 3, 3, 0) 100%);
+    opacity: 0.5;
+}
+
+.image-slider-text-conntainer{
+    position: absolute;
+    top: 80%;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tittle-name{
+    font-size: 3.5vw;
+    font-family: 'indulekhaBold';
+    font-weight: bold;
+    color: white;
+
+    
+
+    /* background-image: url(https://thumbs.gfycat.com/ForkedImpeccableIrrawaddydolphin-size_restricted.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text */
+}
+
+.know-more-btn{
+
+width: 177px;
+height: 67.44px;
+background: linear-gradient(152.65deg, #FFFFFF -5.88%, rgba(255, 255, 255, 0.4) 74.27%);
+border: 1px solid #AFAFAF;
+box-sizing: border-box;
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 15px;
+
+font-family: "gayathriRegular";
+font-size: medium;
+font-family: roboto;
+font-weight: 300;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+margin-top: 20px;
+transition-duration: .5s;
+}
+
+.know-more-btn:hover{
+
+    transform: scale(1.1);
+    transition-duration: 1s;
+    backdrop-filter: blur(0);
+    background: linear-gradient(152.65deg, #FFFFFF -5.88%, rgba(255, 255, 255, 0.4) 50.27%);
+   
+}
+
+.address-marquee-container{
+
+    /* Rectangle 7 */
+
+position: absolute;
+width: 100vw;
+height: 40px;
+left: 0px;
+bottom:0;
+
+background: linear-gradient(152.65deg, #000000 -5.88%, rgba(0, 0, 0, 0.4) 74.27%);
+backdrop-filter: blur(1px);
+/* Note: backdrop-filter has minimal browser support */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+color: white;
+font-size: 13px;
+letter-spacing: 3px;
+
+}
+
+
+
+/* The animation code */
+@keyframes zoomin {
+    from {
+       transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+   
+    .image-slider{
+        max-height: 35vh;
+        min-height: 35vh;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        
+       
+       
+    }
+
+    .slide-images{
+
+        width: 100vw;
+        height: 100%;
+        min-height: 100%;
+        overflow: hidden;
+        object-fit: cover; 
+      
+    }
+    
+    .slide-image{
+    
+        width: 100%;
+        min-width: 100%;
+        object-fit: contain;
+        background-size: cover;
+        max-height: 100vh;
+       
+    }
+
+
+    .image-slider-text-conntainer{
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .tittle-name{
+        font-size: 6vw;
+        font-family: 'indulekhaBold';
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    }
+
+
+.know-more-btn{
+
+    width: 90px;
+    height: 30.44px;
+    background: linear-gradient(152.65deg, #FFFFFF -5.88%, rgba(223, 223, 223, 0.4) 50.27%);
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6px;
+    font-size: 9px;
+    font-family: roboto;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 8px;
+    transition-duration: .5s;
+}
+    .know-more-btn:hover{
+    
+        transform: scale(1.1);
+        transition-duration: 1s;
+        backdrop-filter: blur(0);
+        background: linear-gradient(152.65deg, #FFFFFF -5.88%, rgba(255, 255, 255, 0.4) 50.27%);
+    }
+
+    .address-marquee-container{
+        height: 25px;
+        font-size: 8px;
+    }
+
+  }
+
+  @media only screen and (max-width: 425px) {
+
+    .slide-image{
+    
+        width: 100%;
+        min-width: 100%;
+        height: 300px;
+        object-fit: cover;
+        background-size: cover;
+        max-height: 100vh;
+       
+    }
+
+  }

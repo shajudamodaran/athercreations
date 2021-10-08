@@ -1,0 +1,36 @@
+.photo-folder-container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.folder-image{
+    max-width: 100%;
+    min-height: 230px;
+    max-height: 050%;
+    background-size: cover;
+}
+
+.folder-text-container{
+    padding: 14px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folder-tittle{
+    font-size: 14px;
+}
+
+.folder-dsc{
+    font-size: 11px;
+    margin-top: 6px;
+}

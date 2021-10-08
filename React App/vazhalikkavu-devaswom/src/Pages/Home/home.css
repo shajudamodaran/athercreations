@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "IndulekhaBold";
+    src: local("IndulekhaBold"),
+     url("./../../Fonts/FML-Indulekha-Heavy-Bold.ttf") format("truetype");
+    }
+
+    
+
+.malayalam-test{
+    font-family: "IndulekhaBold";
+    
+}

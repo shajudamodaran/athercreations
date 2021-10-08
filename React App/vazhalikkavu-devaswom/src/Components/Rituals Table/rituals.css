@@ -1,0 +1,57 @@
+
+
+
+.rituals-table{
+
+    width: 100%;
+    
+}
+
+.rituals-table td{
+
+    padding: 15px;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+}
+
+
+.rituals-table tr:nth-child(odd) {background-color: white;}
+
+.rituals-table td:nth-child(odd) { width: 40%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+    
+    
+    
+    
+  }
+
+
+
+
+
+
+ 

@@ -1,0 +1,140 @@
+
+.person-container{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     background: linear-gradient(189.9deg, #45B7CF 2.17%, #207593 70.14%, #0E201A 144.03%); 
+     overflow-y: hidden;
+
+}
+
+.session-header{
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 3px solid #FFAB27;
+}
+
+.people-card{
+
+   
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    /* Rectangle */
+
+background: rgba(69, 183, 207, 0.15);
+border: 2px solid rgba(69, 183, 207, 0.5);
+border-radius: 10px;
+margin-top: 20px;
+
+}
+
+
+
+
+
+.person-avatar{
+
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+}
+
+.people-card-name{
+
+    font-size: larger;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.people-card-desi{
+
+    font-size:15px;
+    font-family: default;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+    .person-container{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+         background: linear-gradient(189.9deg, #45B7CF 2.17%, #207593 70.14%, #0E201A 144.03%); 
+         overflow-y: hidden;
+    }
+  
+
+    .session-header{
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: 3px solid #FFAB27;
+    }
+
+    .people-card{
+
+   
+        width: 100%;
+        border-radius: 5px;
+        padding: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .person-avatar{
+    
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+    }
+    
+    .people-card-name{
+    
+        font-size: 10px;
+        font-family: roboto;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .people-card-desi{
+    
+        font-size:11px;
+        font-family: default;
+        font-weight: 300;
+    }
+
+  
+    
+    
+  }
+
+
+
+
+
+
+ 

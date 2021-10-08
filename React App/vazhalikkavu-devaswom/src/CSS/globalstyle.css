@@ -1,0 +1,33 @@
+
+@font-face {
+font-family: "IndulekhaBold";
+src: local("IndulekhaBold"),
+ url("../Fonts/FML-Indulekha-Heavy-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "IndulekhaNormal";
+    src: local("IndulekhaNormal"),
+     url("../Fonts/FML-Indulekha.ttf") format("truetype");
+    }
+
+
+    @font-face {
+        font-family: "GayathriBold";
+        src: local("GayathriBold"),
+         url("../Fonts/Gayathri-Bold.ttf") format("truetype");
+        }
+
+
+        @font-face {
+            font-family: "GayathriRegular";
+            src: local("GayathriRegular"),
+             url("../Fonts/Gayathri-Regular.ttf") format("truetype");
+            }
+
+            @font-face {
+                font-family: "GayathriThin";
+                src: local("GayathriThin"),
+                 url("../Fonts/Gayathri-Thin.ttf") format("truetype");
+                }
